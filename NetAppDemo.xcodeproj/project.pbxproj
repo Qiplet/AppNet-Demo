@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		609497B51937BF5E00AF2B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B41937BF5E00AF2B14 /* Foundation.framework */; };
+		609497B71937BF5E00AF2B14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B61937BF5E00AF2B14 /* CoreGraphics.framework */; };
+		609497B91937BF5F00AF2B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B81937BF5F00AF2B14 /* UIKit.framework */; };
+		609497BB1937BF5F00AF2B14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497BA1937BF5F00AF2B14 /* CoreData.framework */; };
+		609497C11937BF5F00AF2B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609497BF1937BF5F00AF2B14 /* InfoPlist.strings */; };
+		609497C31937BF5F00AF2B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497C21937BF5F00AF2B14 /* main.m */; };
+		609497C71937BF5F00AF2B14 /* QIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497C61937BF5F00AF2B14 /* QIPAppDelegate.m */; };
+		609497CA1937BF5F00AF2B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609497C81937BF5F00AF2B14 /* Main.storyboard */; };
+		609497CD1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 609497CB1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld */; };
+		609497D01937BF5F00AF2B14 /* QIPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497CF1937BF5F00AF2B14 /* QIPMasterViewController.m */; };
+		609497D31937BF5F00AF2B14 /* QIPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497D21937BF5F00AF2B14 /* QIPDetailViewController.m */; };
+		609497D51937BF5F00AF2B14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609497D41937BF5F00AF2B14 /* Images.xcassets */; };
+		609497DC1937BF5F00AF2B14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497DB1937BF5F00AF2B14 /* XCTest.framework */; };
+		609497DD1937BF5F00AF2B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B41937BF5E00AF2B14 /* Foundation.framework */; };
+		609497DE1937BF5F00AF2B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B81937BF5F00AF2B14 /* UIKit.framework */; };
+		609497DF1937BF5F00AF2B14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497BA1937BF5F00AF2B14 /* CoreData.framework */; };
+		609497E71937BF5F00AF2B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609497E51937BF5F00AF2B14 /* InfoPlist.strings */; };
+		609497E91937BF5F00AF2B14 /* NetAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497E81937BF5F00AF2B14 /* NetAppDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		609497E01937BF5F00AF2B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609497A91937BF5E00AF2B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609497B01937BF5E00AF2B14;
+			remoteInfo = NetAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		609497B11937BF5E00AF2B14 /* NetAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		609497B41937BF5E00AF2B14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		609497B61937BF5E00AF2B14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		609497B81937BF5F00AF2B14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		609497BA1937BF5F00AF2B14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		609497BE1937BF5F00AF2B14 /* NetAppDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetAppDemo-Info.plist"; sourceTree = "<group>"; };
+		609497C01937BF5F00AF2B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		609497C21937BF5F00AF2B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		609497C41937BF5F00AF2B14 /* NetAppDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetAppDemo-Prefix.pch"; sourceTree = "<group>"; };
+		609497C51937BF5F00AF2B14 /* QIPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QIPAppDelegate.h; sourceTree = "<group>"; };
+		609497C61937BF5F00AF2B14 /* QIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QIPAppDelegate.m; sourceTree = "<group>"; };
+		609497C91937BF5F00AF2B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		609497CC1937BF5F00AF2B14 /* NetAppDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetAppDemo.xcdatamodel; sourceTree = "<group>"; };
+		609497CE1937BF5F00AF2B14 /* QIPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QIPMasterViewController.h; sourceTree = "<group>"; };
+		609497CF1937BF5F00AF2B14 /* QIPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QIPMasterViewController.m; sourceTree = "<group>"; };
+		609497D11937BF5F00AF2B14 /* QIPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QIPDetailViewController.h; sourceTree = "<group>"; };
+		609497D21937BF5F00AF2B14 /* QIPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QIPDetailViewController.m; sourceTree = "<group>"; };
+		609497D41937BF5F00AF2B14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		609497DA1937BF5F00AF2B14 /* NetAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609497DB1937BF5F00AF2B14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		609497E41937BF5F00AF2B14 /* NetAppDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetAppDemoTests-Info.plist"; sourceTree = "<group>"; };
+		609497E61937BF5F00AF2B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		609497E81937BF5F00AF2B14 /* NetAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetAppDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609497AE1937BF5E00AF2B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609497B71937BF5E00AF2B14 /* CoreGraphics.framework in Frameworks */,
+				609497BB1937BF5F00AF2B14 /* CoreData.framework in Frameworks */,
+				609497B91937BF5F00AF2B14 /* UIKit.framework in Frameworks */,
+				609497B51937BF5E00AF2B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609497D71937BF5F00AF2B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609497DC1937BF5F00AF2B14 /* XCTest.framework in Frameworks */,
+				609497DF1937BF5F00AF2B14 /* CoreData.framework in Frameworks */,
+				609497DE1937BF5F00AF2B14 /* UIKit.framework in Frameworks */,
+				609497DD1937BF5F00AF2B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		609497A81937BF5E00AF2B14 = {
+			isa = PBXGroup;
+			children = (
+				609497BC1937BF5F00AF2B14 /* NetAppDemo */,
+				609497E21937BF5F00AF2B14 /* NetAppDemoTests */,
+				609497B31937BF5E00AF2B14 /* Frameworks */,
+				609497B21937BF5E00AF2B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		609497B21937BF5E00AF2B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609497B11937BF5E00AF2B14 /* NetAppDemo.app */,
+				609497DA1937BF5F00AF2B14 /* NetAppDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		609497B31937BF5E00AF2B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609497B41937BF5E00AF2B14 /* Foundation.framework */,
+				609497B61937BF5E00AF2B14 /* CoreGraphics.framework */,
+				609497B81937BF5F00AF2B14 /* UIKit.framework */,
+				609497BA1937BF5F00AF2B14 /* CoreData.framework */,
+				609497DB1937BF5F00AF2B14 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609497BC1937BF5F00AF2B14 /* NetAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				609497C51937BF5F00AF2B14 /* QIPAppDelegate.h */,
+				609497C61937BF5F00AF2B14 /* QIPAppDelegate.m */,
+				609497C81937BF5F00AF2B14 /* Main.storyboard */,
+				609497CE1937BF5F00AF2B14 /* QIPMasterViewController.h */,
+				609497CF1937BF5F00AF2B14 /* QIPMasterViewController.m */,
+				609497D11937BF5F00AF2B14 /* QIPDetailViewController.h */,
+				609497D21937BF5F00AF2B14 /* QIPDetailViewController.m */,
+				609497D41937BF5F00AF2B14 /* Images.xcassets */,
+				609497CB1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld */,
+				609497BD1937BF5F00AF2B14 /* Supporting Files */,
+			);
+			path = NetAppDemo;
+			sourceTree = "<group>";
+		};
+		609497BD1937BF5F00AF2B14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				609497BE1937BF5F00AF2B14 /* NetAppDemo-Info.plist */,
+				609497BF1937BF5F00AF2B14 /* InfoPlist.strings */,
+				609497C21937BF5F00AF2B14 /* main.m */,
+				609497C41937BF5F00AF2B14 /* NetAppDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		609497E21937BF5F00AF2B14 /* NetAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				609497E81937BF5F00AF2B14 /* NetAppDemoTests.m */,
+				609497E31937BF5F00AF2B14 /* Supporting Files */,
+			);
+			path = NetAppDemoTests;
+			sourceTree = "<group>";
+		};
+		609497E31937BF5F00AF2B14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				609497E41937BF5F00AF2B14 /* NetAppDemoTests-Info.plist */,
+				609497E51937BF5F00AF2B14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609497B01937BF5E00AF2B14 /* NetAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609497EC1937BF5F00AF2B14 /* Build configuration list for PBXNativeTarget "NetAppDemo" */;
+			buildPhases = (
+				609497AD1937BF5E00AF2B14 /* Sources */,
+				609497AE1937BF5E00AF2B14 /* Frameworks */,
+				609497AF1937BF5E00AF2B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetAppDemo;
+			productName = NetAppDemo;
+			productReference = 609497B11937BF5E00AF2B14 /* NetAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		609497D91937BF5F00AF2B14 /* NetAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609497EF1937BF5F00AF2B14 /* Build configuration list for PBXNativeTarget "NetAppDemoTests" */;
+			buildPhases = (
+				609497D61937BF5F00AF2B14 /* Sources */,
+				609497D71937BF5F00AF2B14 /* Frameworks */,
+				609497D81937BF5F00AF2B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609497E11937BF5F00AF2B14 /* PBXTargetDependency */,
+			);
+			name = NetAppDemoTests;
+			productName = NetAppDemoTests;
+			productReference = 609497DA1937BF5F00AF2B14 /* NetAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		609497A91937BF5E00AF2B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QIP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Qiplet;
+				TargetAttributes = {
+					609497D91937BF5F00AF2B14 = {
+						TestTargetID = 609497B01937BF5E00AF2B14;
+					};
+				};
+			};
+			buildConfigurationList = 609497AC1937BF5E00AF2B14 /* Build configuration list for PBXProject "NetAppDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 609497A81937BF5E00AF2B14;
+			productRefGroup = 609497B21937BF5E00AF2B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609497B01937BF5E00AF2B14 /* NetAppDemo */,
+				609497D91937BF5F00AF2B14 /* NetAppDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609497AF1937BF5E00AF2B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609497D51937BF5F00AF2B14 /* Images.xcassets in Resources */,
+				609497C11937BF5F00AF2B14 /* InfoPlist.strings in Resources */,
+				609497CA1937BF5F00AF2B14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609497D81937BF5F00AF2B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609497E71937BF5F00AF2B14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609497AD1937BF5E00AF2B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609497C31937BF5F00AF2B14 /* main.m in Sources */,
+				609497D01937BF5F00AF2B14 /* QIPMasterViewController.m in Sources */,
+				609497C71937BF5F00AF2B14 /* QIPAppDelegate.m in Sources */,
+				609497CD1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld in Sources */,
+				609497D31937BF5F00AF2B14 /* QIPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609497D61937BF5F00AF2B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609497E91937BF5F00AF2B14 /* NetAppDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		609497E11937BF5F00AF2B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609497B01937BF5E00AF2B14 /* NetAppDemo */;
+			targetProxy = 609497E01937BF5F00AF2B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		609497BF1937BF5F00AF2B14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609497C01937BF5F00AF2B14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		609497C81937BF5F00AF2B14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609497C91937BF5F00AF2B14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		609497E51937BF5F00AF2B14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609497E61937BF5F00AF2B14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		609497EA1937BF5F00AF2B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		609497EB1937BF5F00AF2B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609497ED1937BF5F00AF2B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetAppDemo/NetAppDemo-Prefix.pch";
+				INFOPLIST_FILE = "NetAppDemo/NetAppDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		609497EE1937BF5F00AF2B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetAppDemo/NetAppDemo-Prefix.pch";
+				INFOPLIST_FILE = "NetAppDemo/NetAppDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		609497F01937BF5F00AF2B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetAppDemo.app/NetAppDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetAppDemo/NetAppDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NetAppDemoTests/NetAppDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		609497F11937BF5F00AF2B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetAppDemo.app/NetAppDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetAppDemo/NetAppDemo-Prefix.pch";
+				INFOPLIST_FILE = "NetAppDemoTests/NetAppDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		609497AC1937BF5E00AF2B14 /* Build configuration list for PBXProject "NetAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609497EA1937BF5F00AF2B14 /* Debug */,
+				609497EB1937BF5F00AF2B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609497EC1937BF5F00AF2B14 /* Build configuration list for PBXNativeTarget "NetAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609497ED1937BF5F00AF2B14 /* Debug */,
+				609497EE1937BF5F00AF2B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		609497EF1937BF5F00AF2B14 /* Build configuration list for PBXNativeTarget "NetAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609497F01937BF5F00AF2B14 /* Debug */,
+				609497F11937BF5F00AF2B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		609497CB1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				609497CC1937BF5F00AF2B14 /* NetAppDemo.xcdatamodel */,
+			);
+			currentVersion = 609497CC1937BF5F00AF2B14 /* NetAppDemo.xcdatamodel */;
+			path = NetAppDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 609497A91937BF5E00AF2B14 /* Project object */;
+}
