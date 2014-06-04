@@ -1,6 +1,6 @@
 //
 //  PostsCDTVC.m
-//  NetAppDemo
+//  AppNetDemo
 //
 //  Created by David Butts on 5/29/14.
 //  Copyright (c) 2014 Qiplet. All rights reserved.

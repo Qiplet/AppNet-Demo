@@ -20,7 +20,7 @@
 		609497DE1937BF5F00AF2B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B81937BF5F00AF2B14 /* UIKit.framework */; };
 		609497DF1937BF5F00AF2B14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497BA1937BF5F00AF2B14 /* CoreData.framework */; };
 		609497E71937BF5F00AF2B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609497E51937BF5F00AF2B14 /* InfoPlist.strings */; };
-		609497E91937BF5F00AF2B14 /* NetAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497E81937BF5F00AF2B14 /* NetAppDemoTests.m */; };
+		609497E91937BF5F00AF2B14 /* AppNetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497E81937BF5F00AF2B14 /* AppNetDemoTests.m */; };
 		609497F71937CA9100AF2B14 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497F61937CA9100AF2B14 /* PostTableViewCell.m */; };
 		609497FA1937CC3700AF2B14 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497F91937CC3700AF2B14 /* CoreDataTableViewController.m */; };
 		609497FD1937E14C00AF2B14 /* PostsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497FC1937E14C00AF2B14 /* PostsCDTVC.m */; };
@@ -66,7 +66,7 @@
 		609497DB1937BF5F00AF2B14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		609497E41937BF5F00AF2B14 /* AppNetDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppNetDemoTests-Info.plist"; sourceTree = "<group>"; };
 		609497E61937BF5F00AF2B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		609497E81937BF5F00AF2B14 /* NetAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetAppDemoTests.m; sourceTree = "<group>"; };
+		609497E81937BF5F00AF2B14 /* AppNetDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppNetDemoTests.m; sourceTree = "<group>"; };
 		609497F51937CA9100AF2B14 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
 		609497F61937CA9100AF2B14 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
 		609497F81937CC3700AF2B14 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
@@ -116,8 +116,8 @@
 		609497A81937BF5E00AF2B14 = {
 			isa = PBXGroup;
 			children = (
-				609497BC1937BF5F00AF2B14 /* NetAppDemo */,
-				609497E21937BF5F00AF2B14 /* NetAppDemoTests */,
+				609497BC1937BF5F00AF2B14 /* AppNetDemo */,
+				609497E21937BF5F00AF2B14 /* AppNetDemoTests */,
 				609497B31937BF5E00AF2B14 /* Frameworks */,
 				609497B21937BF5E00AF2B14 /* Products */,
 			);
@@ -146,7 +146,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		609497BC1937BF5F00AF2B14 /* NetAppDemo */ = {
+		609497BC1937BF5F00AF2B14 /* AppNetDemo */ = {
 			isa = PBXGroup;
 			children = (
 				609497F21937BF7A00AF2B14 /* Controllers */,
@@ -155,7 +155,7 @@
 				609498071937F23100AF2B14 /* DataFetcher */,
 				609497BD1937BF5F00AF2B14 /* Supporting Files */,
 			);
-			path = NetAppDemo;
+			path = AppNetDemo;
 			sourceTree = "<group>";
 		};
 		609497BD1937BF5F00AF2B14 /* Supporting Files */ = {
@@ -174,12 +174,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		609497E21937BF5F00AF2B14 /* NetAppDemoTests */ = {
+		609497E21937BF5F00AF2B14 /* AppNetDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				609497E81937BF5F00AF2B14 /* NetAppDemoTests.m */,
+				609497E81937BF5F00AF2B14 /* AppNetDemoTests.m */,
 				609497E31937BF5F00AF2B14 /* Supporting Files */,
 			);
+			name = AppNetDemoTests;
 			path = NetAppDemoTests;
 			sourceTree = "<group>";
 		};
@@ -353,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609497E91937BF5F00AF2B14 /* NetAppDemoTests.m in Sources */,
+				609497E91937BF5F00AF2B14 /* AppNetDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +383,7 @@
 				609497C91937BF5F00AF2B14 /* Base */,
 			);
 			name = iPhone.storyboard;
-			path = NetAppDemo;
+			path = AppNetDemo;
 			sourceTree = "<group>";
 		};
 		609497E51937BF5F00AF2B14 /* InfoPlist.strings */ = {
@@ -481,8 +482,8 @@
 					/Users/Dymsum/Desktop/Development/Libraries,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NetAppDemo/AppNetDemo-Prefix.pch";
-				INFOPLIST_FILE = "NetAppDemo/AppNetDemo-Info.plist";
+				GCC_PREFIX_HEADER = "AppNetDemo/AppNetDemo-Prefix.pch";
+				INFOPLIST_FILE = "AppNetDemo/AppNetDemo-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = AppNetDemo;
@@ -502,8 +503,8 @@
 					/Users/Dymsum/Desktop/Development/Libraries,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NetAppDemo/AppNetDemo-Prefix.pch";
-				INFOPLIST_FILE = "NetAppDemo/AppNetDemo-Info.plist";
+				GCC_PREFIX_HEADER = "AppNetDemo/AppNetDemo-Prefix.pch";
+				INFOPLIST_FILE = "AppNetDemo/AppNetDemo-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = AppNetDemo;
@@ -514,7 +515,7 @@
 		609497F01937BF5F00AF2B14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetAppDemo.app/NetAppDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppNetDemo.app/AppNetDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,7 +537,7 @@
 		609497F11937BF5F00AF2B14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetAppDemo.app/NetAppDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppNetDemo.app/AppNetDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
