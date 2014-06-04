@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "609497B01937BF5E00AF2B14"
-               BuildableName = "NetAppDemo.app"
-               BlueprintName = "NetAppDemo"
-               ReferencedContainer = "container:NetAppDemo.xcodeproj">
+               BuildableName = "AppNetDemo.app"
+               BlueprintName = "AppNetDemo"
+               ReferencedContainer = "container:AppNetDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "609497D91937BF5F00AF2B14"
-               BuildableName = "NetAppDemoTests.xctest"
-               BlueprintName = "NetAppDemoTests"
-               ReferencedContainer = "container:NetAppDemo.xcodeproj">
+               BuildableName = "AppNetDemoTests.xctest"
+               BlueprintName = "AppNetDemoTests"
+               ReferencedContainer = "container:AppNetDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "609497B01937BF5E00AF2B14"
-            BuildableName = "NetAppDemo.app"
-            BlueprintName = "NetAppDemo"
-            ReferencedContainer = "container:NetAppDemo.xcodeproj">
+            BuildableName = "AppNetDemo.app"
+            BlueprintName = "AppNetDemo"
+            ReferencedContainer = "container:AppNetDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "609497B01937BF5E00AF2B14"
-            BuildableName = "NetAppDemo.app"
-            BlueprintName = "NetAppDemo"
-            ReferencedContainer = "container:NetAppDemo.xcodeproj">
+            BuildableName = "AppNetDemo.app"
+            BlueprintName = "AppNetDemo"
+            ReferencedContainer = "container:AppNetDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "609497B01937BF5E00AF2B14"
-            BuildableName = "NetAppDemo.app"
-            BlueprintName = "NetAppDemo"
-            ReferencedContainer = "container:NetAppDemo.xcodeproj">
+            BuildableName = "AppNetDemo.app"
+            BlueprintName = "AppNetDemo"
+            ReferencedContainer = "container:AppNetDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

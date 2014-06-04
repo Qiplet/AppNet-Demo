@@ -8,8 +8,6 @@
 
 #import "QIPAppDelegate.h"
 
-#import "QIPMasterViewController.h"
-
 @implementation QIPAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -19,9 +17,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    QIPMasterViewController *controller = (QIPMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    //UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    //QIPMasterViewController *controller = (QIPMasterViewController *)navigationController.topViewController;
+    //controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							
