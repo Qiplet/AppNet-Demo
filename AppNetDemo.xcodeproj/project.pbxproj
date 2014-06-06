@@ -113,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60114D291941404F003E3845 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6040E057193EAD0A00705CF4 /* NSDate+ISO8601.h */,
+				6040E058193EAD0A00705CF4 /* NSDate+ISO8601.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		609497A81937BF5E00AF2B14 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +162,7 @@
 				609497F41937C4E500AF2B14 /* Views */,
 				609497F31937BF9100AF2B14 /* Models */,
 				609498071937F23100AF2B14 /* DataFetcher */,
+				60114D291941404F003E3845 /* Helpers */,
 				609497BD1937BF5F00AF2B14 /* Supporting Files */,
 			);
 			path = AppNetDemo;
@@ -168,8 +178,6 @@
 				609497BF1937BF5F00AF2B14 /* InfoPlist.strings */,
 				609497C21937BF5F00AF2B14 /* main.m */,
 				609497C41937BF5F00AF2B14 /* AppNetDemo-Prefix.pch */,
-				6040E057193EAD0A00705CF4 /* NSDate+ISO8601.h */,
-				6040E058193EAD0A00705CF4 /* NSDate+ISO8601.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
