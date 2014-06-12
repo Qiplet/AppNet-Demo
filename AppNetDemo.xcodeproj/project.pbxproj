@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60114D3719493F01003E3845 /* AppNetPostsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60114D3619493F01003E3845 /* AppNetPostsCDTVC.m */; };
+		60114D3A19493F2D003E3845 /* PostsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60114D3919493F2D003E3845 /* PostsCDTVC.m */; };
+		60114D3C19493F3D003E3845 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60114D3B19493F3D003E3845 /* iPhone.storyboard */; };
 		6040E059193EAD0A00705CF4 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 6040E058193EAD0A00705CF4 /* NSDate+ISO8601.m */; };
 		609497B51937BF5E00AF2B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B41937BF5E00AF2B14 /* Foundation.framework */; };
 		609497C11937BF5F00AF2B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609497BF1937BF5F00AF2B14 /* InfoPlist.strings */; };
 		609497C31937BF5F00AF2B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497C21937BF5F00AF2B14 /* main.m */; };
 		609497C71937BF5F00AF2B14 /* QIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497C61937BF5F00AF2B14 /* QIPAppDelegate.m */; };
-		609497CA1937BF5F00AF2B14 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609497C81937BF5F00AF2B14 /* iPhone.storyboard */; };
 		609497CD1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 609497CB1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld */; };
 		609497D51937BF5F00AF2B14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609497D41937BF5F00AF2B14 /* Images.xcassets */; };
 		609497DC1937BF5F00AF2B14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497DB1937BF5F00AF2B14 /* XCTest.framework */; };
@@ -23,10 +25,8 @@
 		609497E91937BF5F00AF2B14 /* AppNetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497E81937BF5F00AF2B14 /* AppNetDemoTests.m */; };
 		609497F71937CA9100AF2B14 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497F61937CA9100AF2B14 /* PostTableViewCell.m */; };
 		609497FA1937CC3700AF2B14 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497F91937CC3700AF2B14 /* CoreDataTableViewController.m */; };
-		609497FD1937E14C00AF2B14 /* PostsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 609497FC1937E14C00AF2B14 /* PostsCDTVC.m */; };
 		609498061937EC8F00AF2B14 /* Post+Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 609498051937EC8F00AF2B14 /* Post+Creator.m */; };
 		6094980A1937F26000AF2B14 /* PostDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 609498091937F26000AF2B14 /* PostDataFetcher.m */; };
-		609498101938110000AF2B14 /* AppNetPostsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6094980F1938110000AF2B14 /* AppNetPostsCDTVC.m */; };
 		60949823193AAB3300AF2B14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497BA1937BF5F00AF2B14 /* CoreData.framework */; };
 		60949824193AAB3D00AF2B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B81937BF5F00AF2B14 /* UIKit.framework */; };
 		60949825193AAB4600AF2B14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609497B61937BF5E00AF2B14 /* CoreGraphics.framework */; };
@@ -46,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60114D3519493F01003E3845 /* AppNetPostsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNetPostsCDTVC.h; sourceTree = "<group>"; };
+		60114D3619493F01003E3845 /* AppNetPostsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNetPostsCDTVC.m; sourceTree = "<group>"; };
+		60114D3819493F2D003E3845 /* PostsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsCDTVC.h; sourceTree = "<group>"; };
+		60114D3919493F2D003E3845 /* PostsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsCDTVC.m; sourceTree = "<group>"; };
+		60114D3B19493F3D003E3845 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		6040E057193EAD0A00705CF4 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
 		6040E058193EAD0A00705CF4 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
 		609497B11937BF5E00AF2B14 /* AppNetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppNetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +64,6 @@
 		609497C41937BF5F00AF2B14 /* AppNetDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppNetDemo-Prefix.pch"; sourceTree = "<group>"; };
 		609497C51937BF5F00AF2B14 /* QIPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QIPAppDelegate.h; sourceTree = "<group>"; };
 		609497C61937BF5F00AF2B14 /* QIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QIPAppDelegate.m; sourceTree = "<group>"; };
-		609497C91937BF5F00AF2B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone.storyboard; sourceTree = "<group>"; };
 		609497CC1937BF5F00AF2B14 /* NetAppDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetAppDemo.xcdatamodel; sourceTree = "<group>"; };
 		609497D41937BF5F00AF2B14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		609497DA1937BF5F00AF2B14 /* AppNetDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppNetDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,14 +75,10 @@
 		609497F61937CA9100AF2B14 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
 		609497F81937CC3700AF2B14 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		609497F91937CC3700AF2B14 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
-		609497FB1937E14C00AF2B14 /* PostsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsCDTVC.h; sourceTree = "<group>"; };
-		609497FC1937E14C00AF2B14 /* PostsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsCDTVC.m; sourceTree = "<group>"; };
 		609498041937EC8E00AF2B14 /* Post+Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Post+Creator.h"; sourceTree = "<group>"; };
 		609498051937EC8F00AF2B14 /* Post+Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Post+Creator.m"; sourceTree = "<group>"; };
 		609498081937F26000AF2B14 /* PostDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDataFetcher.h; sourceTree = "<group>"; };
 		609498091937F26000AF2B14 /* PostDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDataFetcher.m; sourceTree = "<group>"; };
-		6094980E1938110000AF2B14 /* AppNetPostsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNetPostsCDTVC.h; sourceTree = "<group>"; };
-		6094980F1938110000AF2B14 /* AppNetPostsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNetPostsCDTVC.m; sourceTree = "<group>"; };
 		60949837193AF86300AF2B14 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		6094983B193B145300AF2B14 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		60AC0B22193DA9C9009369D0 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
@@ -122,6 +122,18 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		60114D3419493BE4003E3845 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60114D3B19493F3D003E3845 /* iPhone.storyboard */,
+				60114D3819493F2D003E3845 /* PostsCDTVC.h */,
+				60114D3919493F2D003E3845 /* PostsCDTVC.m */,
+				60114D3519493F01003E3845 /* AppNetPostsCDTVC.h */,
+				60114D3619493F01003E3845 /* AppNetPostsCDTVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		609497A81937BF5E00AF2B14 = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +170,7 @@
 		609497BC1937BF5F00AF2B14 /* AppNetDemo */ = {
 			isa = PBXGroup;
 			children = (
-				609497F21937BF7A00AF2B14 /* Controllers */,
+				60114D3419493BE4003E3845 /* Controllers */,
 				609497F41937C4E500AF2B14 /* Views */,
 				609497F31937BF9100AF2B14 /* Models */,
 				609498071937F23100AF2B14 /* DataFetcher */,
@@ -199,19 +211,6 @@
 				609497E51937BF5F00AF2B14 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		609497F21937BF7A00AF2B14 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				609497C81937BF5F00AF2B14 /* iPhone.storyboard */,
-				609497FB1937E14C00AF2B14 /* PostsCDTVC.h */,
-				609497FC1937E14C00AF2B14 /* PostsCDTVC.m */,
-				6094980E1938110000AF2B14 /* AppNetPostsCDTVC.h */,
-				6094980F1938110000AF2B14 /* AppNetPostsCDTVC.m */,
-			);
-			name = Controllers;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		609497F31937BF9100AF2B14 /* Models */ = {
@@ -324,8 +323,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				609497D51937BF5F00AF2B14 /* Images.xcassets in Resources */,
+				60114D3C19493F3D003E3845 /* iPhone.storyboard in Resources */,
 				609497C11937BF5F00AF2B14 /* InfoPlist.strings in Resources */,
-				609497CA1937BF5F00AF2B14 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,16 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609497FD1937E14C00AF2B14 /* PostsCDTVC.m in Sources */,
-				609498101938110000AF2B14 /* AppNetPostsCDTVC.m in Sources */,
 				6094980A1937F26000AF2B14 /* PostDataFetcher.m in Sources */,
 				609497C31937BF5F00AF2B14 /* main.m in Sources */,
 				609498061937EC8F00AF2B14 /* Post+Creator.m in Sources */,
 				60AC0B24193DA9C9009369D0 /* Post.m in Sources */,
 				609497F71937CA9100AF2B14 /* PostTableViewCell.m in Sources */,
 				609497FA1937CC3700AF2B14 /* CoreDataTableViewController.m in Sources */,
+				60114D3719493F01003E3845 /* AppNetPostsCDTVC.m in Sources */,
 				609497C71937BF5F00AF2B14 /* QIPAppDelegate.m in Sources */,
 				6040E059193EAD0A00705CF4 /* NSDate+ISO8601.m in Sources */,
+				60114D3A19493F2D003E3845 /* PostsCDTVC.m in Sources */,
 				609497CD1937BF5F00AF2B14 /* NetAppDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,15 +382,6 @@
 				609497C01937BF5F00AF2B14 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		609497C81937BF5F00AF2B14 /* iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				609497C91937BF5F00AF2B14 /* Base */,
-			);
-			name = iPhone.storyboard;
-			path = AppNetDemo;
 			sourceTree = "<group>";
 		};
 		609497E51937BF5F00AF2B14 /* InfoPlist.strings */ = {
